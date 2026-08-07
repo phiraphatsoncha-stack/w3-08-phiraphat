@@ -28,9 +28,16 @@
             border-radius: 8px;
             font-weight: bold;
             transition: 0.2s;
+            margin: 0 6px;
         }
         .btn:hover {
             background-color: #4f46e5;
+        }
+        .btn-add {
+            background-color: #22c55e;
+        }
+        .btn-add:hover {
+            background-color: #16a34a;
         }
         .btn-wrap {
             text-align: center;
@@ -85,6 +92,8 @@
 
     <div class="btn-wrap">
         <a href="game_type.php" class="btn">ดูประเภทเกมทั้งหมด</a>
+        <a href="add_game.php" class="btn btn-add">➕ เพิ่มเกมใหม่</a>
+        <a href="manage_game.php" class="btn btn-manage">จัดการเกม</a>
     </div>
 
     <table>
