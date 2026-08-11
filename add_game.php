@@ -15,7 +15,8 @@
             padding: 40px 20px;
             color: #fff;
             display: flex;
-            justify-content: center;
+            flex-direction: column;
+            align-items: center;
         }
         form {
             background: #2a2a40;
@@ -95,6 +96,22 @@
             text-align: center;
             margin-bottom: 30px;
         }
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            padding: 20px;
+            color: #a1a1c2;
+            font-size: 14px;
+            width: 100%;
+            max-width: 480px;
+        }
+        footer a {
+            color: #8b5cf6;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
@@ -142,5 +159,9 @@
 
     </form>
 
+    <footer>
+        &copy; <?= date("Y") ?> ระบบจัดการร้านเกม | พัฒนาโดยFxrstyyy
+    </footer>
+    
 </body>
 </html>

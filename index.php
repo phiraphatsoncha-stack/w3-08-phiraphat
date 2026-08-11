@@ -74,6 +74,21 @@
             border-radius: 8px;
             border: 2px solid #6366f1;
         }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            color: #a1a1c2;
+            font-size: 14px;
+            border-top: 1px solid #3a3a55;
+        }
+        footer a {
+            color: #8b5cf6;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
@@ -122,6 +137,10 @@
             ?>
         </tbody>
     </table>
+
+    <footer>
+        &copy; <?= date("Y") ?> ระบบจัดการร้านเกม | พัฒนาโดยFxrstyyy
+    </footer>
 
 </body>
 </html>
